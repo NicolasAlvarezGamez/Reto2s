@@ -1,0 +1,287 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: block;
+    margin: 3px auto;
+    width: 150px;
+}
+
+header{
+    background-color: rgb(235, 235, 235);    
+    height: 80px;
+    border-top: 4px solid rgb(252, 191, 80);
+    border-bottom: 2px solid black;
+    
+}
+
+h1{
+    display: block;
+    font-family:segoe ui;
+    text-align: center;
+    margin-top: -90px;
+    font-size: 45px;
+    color: rgb(53, 53, 53);
+}
+
+.r_clients{
+    margin-top: -50px;
+}
+
+.clients{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 100px 0px 20px 100px;
+    padding: 10px auto;
+    object-fit: cover ;
+    border-radius: 2px;
+    box-shadow: 0px 10px 30px 0px rgba(73, 73, 73, 0.705);
+    border: 1px solid black;
+    
+}
+
+.clientes{
+    display: block;
+    border:1px solid transparent;
+    padding: 10px 30px 30px 175px;
+    font-family: sans-serif;
+}
+
+.messages{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin: -285px 50px 20px 100px;
+    padding: 10px auto;
+    object-fit: cover ;
+    border-radius: 2px;
+    box-shadow: 0px 10px 30px 0px rgba(73, 73, 73, 0.705);
+    border: 1px solid black;
+    
+}
+
+.mensajes{
+    display: block;
+    border:1px solid transparent;
+    margin: -70px 100px 0px 0px;
+    padding: 10px 30px 30px 175px;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.rooms{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: -290px 0px 0px 530px;
+    padding: 10px auto;
+    object-fit: cover ;
+    border-radius: 2px;
+    box-shadow: 0px 10px 30px 0px rgba(73, 73, 73, 0.705);
+    border: 1px solid black;
+    
+}
+
+.habitaciones{
+    display: block;
+    border:1px solid transparent;
+    padding: 30px 0px 30px 590px;
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: rgb(235, 235, 235);    
+    height: 45px;
+    margin-top: 45px;
+    width: 100%;
+    float: right;
+    
+}
+
+.nombref{
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 200px;
+    color: rgb(34, 34, 34);
+ }
+ 
+ .correof{
+     font-family: monospace;
+     display:block;
+     float: right;
+     font-size: 15px;
+     margin-top: -20px;
+     margin-right: 200px;
+     color: rgb(34, 34, 34);
+  }
+ 
+.clientOptions{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+  li{   
+    display: table-cell;
+    padding: 0px 50px;
+    margin: 0px 0px 0px 500px;
+    font-family: fantasy;
+    font-size: 22px;
+  }
+
+  .infoinput{
+    margin-left: 400px;
+    margin-top: -60px;
+    /* margin-top: 0px; */
+    padding: 0px 278px ;
+    width: 80px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: fantasy;
+    color: rgb(54, 54, 54);
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 0px rgb(255, 166, 0);
+    background-color: ghostwhite;
+}
+
+.idTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.nameTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.emailTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+    
+.ageTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.roomTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.starsTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.categoryTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.descriptionTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.messageTxt{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: -150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: rgb(46, 46, 46);
+    }
+
+.botonx{
+    height: 80px;
+    width: 150px;
+    padding: 20px 20px;
+    background-color: white;
+    font-size: 22px;
+    font-family: fantasy;
+}
+
+.botonx:hover{
+    background: rgba(252, 192, 80, 0.829);
+    transition: ease 0.7s all;
+}
+
+.botonz{
+    height: 80px;
+    width: 400px;
+    padding: 20px 20px;
+    margin-left: 460px;
+    background-color: white;
+    border:none;
+    font-size: 22px;
+    font-family: fantasy;
+}
+
