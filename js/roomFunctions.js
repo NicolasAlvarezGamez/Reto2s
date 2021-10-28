@@ -8,7 +8,7 @@ function getRoomInfo(){
             $("#resultado").empty();
             showClientAns(ans.items);
         }
-        });
+        });  
 
 }
 

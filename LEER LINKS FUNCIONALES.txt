@@ -1,0 +1,9 @@
+Los Links para la Prueba del FrontEnd son:
+
+http://129.151.103.52/Reto2s/ = Página de Inicio (Abrir de 1°)
+http://129.151.103.52/Reto2s/room.html = Lleva a la pestaña de Habitaciones
+http://129.151.103.52/Reto2s/client.html = Lleva a la pestaña de Clientes
+http://129.151.103.52/Reto2s/message.html = Lleva a la pestaña de Mensajes
+
+
+

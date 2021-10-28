@@ -137,7 +137,6 @@ footer{
   .infoinput{
     margin-left: 400px;
     margin-top: -60px;
-    /* margin-top: 0px; */
     padding: 0px 278px ;
     width: 80px;
     box-sizing: border-box;
@@ -285,3 +284,39 @@ footer{
     font-family: fantasy;
 }
 
+table{
+    display: inline-block;
+    margin-left: -100px;
+    width: 700px;
+    border-collapse: collapse;
+}
+
+thead th:nth-child(1) {
+    width: 30px;
+}
+  
+thead th:nth-child(2) {
+    width: 50px;
+}
+  
+thead th:nth-child(3) {
+    width: 30px;
+}
+  
+thead th:nth-child(4) {
+    width: 150px;
+}
+
+thead th:nth-child(5) {
+    width: 75px;
+}
+
+th, td {
+    padding: 20px;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(252, 192, 80, 0.795);
+}
